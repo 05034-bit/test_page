@@ -4,7 +4,7 @@
 
 ##2.ソースコード
 
-''' # このプログラムは python3用です。
+``` # このプログラムは python3用です。
 # あらかじめ pip install pillow で pillow をインストールしておきます。
 form PIL import Image
 import sys
@@ -20,4 +20,5 @@ img = Image.open(input_image)
 img_flip = img.transpose(Image.FLIP_LEFI_RIGHT)
 
 # 画像の保存
-img_flip.save(output_image)'''
+img_flip.save(output_image)
+```
